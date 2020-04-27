@@ -1,6 +1,6 @@
 from random import randint
 
-num = int(input("Where do you want your guess to end: "))
+num = 100 #int(input("Where do you want your guess to end: "))
 counter = 0
 u_guess = 0
 C_guess = randint(1, num)
